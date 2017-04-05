@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class minmaxfinder {
 
 	public static void main(String[] args) {
+		//TODO: add javadoc
 		int[] my={41,32,23,44,56,46,77,68,79,15};
 		System.out.println("min element in"+Arrays.toString(my)+"is"+getmin(my));
 		System.out.println("max element in"+Arrays.toString(my)+"is"+getmax(my));
